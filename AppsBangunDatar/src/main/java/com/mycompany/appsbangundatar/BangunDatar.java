@@ -26,8 +26,9 @@ abstract class BangunDatar {
     public void setBangunDatar(String BangunDatar) {
         this.BangunDatar = BangunDatar;
     }
-    
+    /*method untuk menghitung luas bangun datar */
     abstract double luas();
     abstract double keliling();
     
 }
+
