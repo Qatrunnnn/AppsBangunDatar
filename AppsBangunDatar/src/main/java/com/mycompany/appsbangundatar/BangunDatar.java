@@ -8,9 +8,26 @@ package com.mycompany.appsbangundatar;
  *
  * @author user
  */
-public class BangunDatar {
+abstract class BangunDatar {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
+    private String BangunDatar;
+
+    public BangunDatar() {
     }
+
+    public BangunDatar(String BangunDatar) {
+        this.BangunDatar = BangunDatar;
+    }
+
+    public String getBangunDatar() {
+        return BangunDatar;
+    }
+
+    public void setBangunDatar(String BangunDatar) {
+        this.BangunDatar = BangunDatar;
+    }
+    
+    abstract double luas();
+    abstract double keliling();
+    
 }
